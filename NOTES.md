@@ -1,0 +1,11 @@
+- Some settings are best deferred if just trying to get system running locally... email, etc.
+- Need update to python container, pip, etc.
+- Running up through bootstrapping and direction to docker-compose up is good... need more of an intro to "what" is set up for you.
+- Refactor backend and worker to inherit from same base.
+- NPM out of date
+- Added .devcontainer.json to each of frontend and backend
+- Added missiong volumes in override for bind mounting files...
+- F1 => Remote-Containers: Open Folder in Container..
+- Misused .env to unconditionally load env vars rather than setting on compose file
+- Flower, pgadmin are not prod services
+- First time setup all baked in to containers... maybe for dev only?  Use out of band scripts for deployments?
